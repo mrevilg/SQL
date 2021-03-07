@@ -11,3 +11,14 @@ AND and OR combines multiple conditions.
 ORDER BY sorts the result.
 LIMIT specifies the maximum number of rows that the query will return.
 CASE creates different outputs.
+
+
+SELECT name,
+ CASE
+  WHEN review > 4.5 THEN 'Extraordinary'
+  WHEN review > 4 THEN 'Excellent'
+  WHEN review > 3 THEN 'Good'
+  WHEN review > 2 THEN 'Fair'
+  ELSE 'Poor'
+ END AS 'Review'
+FROM nomnom;
