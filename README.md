@@ -28,3 +28,9 @@ SUM(): the sum of the values in a column
 MAX()/MIN(): the largest/smallest value
 AVG(): the average of the values in a column
 ROUND(): round the values in the column
+
+GROUP BY is a clause in SQL that is used with aggregate functions. It is used in collaboration with the SELECT statement to arrange identical data into groups.
+
+The GROUP BY statement comes after any WHERE statements, but before ORDER BY or LIMIT.
+
+When we want to limit the results of a query based on values of the individual rows, use WHERE. When we want to limit the results of a query based on an aggregate property, use HAVING. HAVING statement always comes after GROUP BY, but before ORDER BY and LIMIT.
