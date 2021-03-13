@@ -36,3 +36,5 @@ The GROUP BY statement comes after any WHERE statements, but before ORDER BY or 
 When we want to limit the results of a query based on values of the individual rows, use WHERE. When we want to limit the results of a query based on an aggregate property, use HAVING. HAVING statement always comes after GROUP BY, but before ORDER BY and LIMIT.
 
 The WHERE clause filters rows, whereas the HAVING clause filter groups.
+
+Placeholder update
